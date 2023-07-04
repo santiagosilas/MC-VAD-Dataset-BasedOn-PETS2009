@@ -35,10 +35,14 @@ If you use this dataset in your research or project, please cite it as:
 
 
 ```
-@article{pereira2023mcmil,
-  title={An Approach to Multi-camera Multi-Instance Anomaly Detection in Video Surveillance},
-  author={Pereira, Silas Santiago L and Maia, Jos{\'e} Everardo Bessa},
-  journal={arXiv preprint arXiv:1234.12345},
-  year={2023}
+@misc{pereira2023mil,
+      title={A MIL Approach for Anomaly Detection in Surveillance Videos from Multiple Camera Views}, 
+      author={Silas Santiago Lopes Pereira and José Everardo Bessa Maia},
+      year={2023},
+      eprint={2307.00562},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
+
+ArXiv URL: [https://arxiv.org/abs/2307.00562](https://arxiv.org/abs/2307.00562)
