@@ -11,15 +11,32 @@ The dataset is provided in .npy format (numpy version: 1.24.3). Each .npy file c
 ## Dataset Contents
 The repository contains the following files:
 - Training splits for each camera:
-    - pets2009-comb-train-view-001.npy
-    - pets2009-comb-train-view-002.npy
-    - pets2009-comb-train-view-003.npy
-    - pets2009-comb-train-view-004.npy
+    - S1.L2-walking--Time-14-31
+    - S1.L1-walking--Time-13-59
+    - Regular-Flow--Time-13-59
+    - S3-Multiple-Flows--Time-14-37
+    - Regular-Flow--Time-13-57
+    - Background-Set--Time-13-06
+    - Regular-Flow--Time-14-03
+    - Background-Set--Time-13-38
+    - Regular-Flow--Time-14-06
+    - S3-Event-Recognition--Time-14-31
+    - S3-Event-Recognition--Time-14-16a
+    - S3-Event-Recognition--Time-14-27a
+    - S3-Event-Recognition--Time-14-16b
 - Test Splits for each camera:
-    - pets2009-comb-test-view-001.npy
-    - pets2009-comb-test-view-002.npy
-    - pets2009-comb-test-view-003.npy
-    - pets2009-comb-test-view-004.npy
+    - City-Center--Time-12-34
+    - Regular-Flow--Time-14-29
+    - S1.L1-walking--Time-13-57
+    - S2.L2-walking--Time-14-55
+    - S1.L2-walking--Time-14-06
+    - City-Center--Time-14-55
+    - S2.L3-walking--Time-14-41
+    - Background-Set--Time-13-32
+    - Background-Set--Time-13-19
+    - S3-Event-Recognition--Time-14-27b
+    - S3-Event-Recognition--Time-14-33a
+    - S3-Event-Recognition--Time-14-33b
 
 - DATA-LOADING.ipynb: A jupyter notebook providing a demonstration on how to load and process the dataset.
 
